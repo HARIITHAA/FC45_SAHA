@@ -1,0 +1,85 @@
+<html>
+<body>
+<form action="SEND ADDRESS" id="ft-form" method="POST" accept-charset="UTF-8">
+  <fieldset>
+    <legend>For person</legend>
+    <label>
+      Name
+      <input type="text" name="name" required>
+    </label>
+    <div class="two-cols">
+      <label>
+        Email address
+        <input type="email" name="email" required>
+      </label>
+      <label>
+        Phone number
+        <input type="tel" name="phone">
+      </label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>slot booking </legend>
+    <div class="two-cols">
+      <label>
+        Datum
+        <input type="date" name="Appointment request" required>
+      </label>
+      <div class="inline">
+        <div style="height:280px; width: 700px;overflow:scroll;border: 1px solid #ddd;">
+  <div class="days">
+  <div class="day">
+    <div class="datelabel"><strong>monday</strong><br/>june 13</div>
+    <div class="timeslot">9:00am</div>
+    <div class="timeslot">9:30am</div>
+    <div class="timeslot">10:00am</div>
+ <div class="timeslot">11:30pm</div>
+ <div class="timeslot">12:30pm</div>
+ <div class="timeslot">10:30pm</div>
+  </div>
+  <div class="day">
+    <div class="datelabel"><strong>tuesday</strong><br/>june 14</div>
+    <div class="timeslot">12:00pm</div>
+ <div class="timeslot">4:30pm</div>
+ <div class="timeslot">11:30pm</div>
+  </div>  
+  <div class="day">
+    <div class="datelabel"><strong>wednesday</strong><br/>june 15</div>
+    <div class="timeslot">12:30pm</div>
+ <div class="timeslot">1:30pm</div>
+ <div class="timeslot">3:30pm</div>
+ <div class="timeslot">10:30pm</div>
+  </div>
+  <div class="day">
+    <div class="datelabel"><strong>thursday</strong><br/>june 16</div>
+    <div class="timeslot">11:30pm</div>
+ <div class="timeslot">1:30pm</div>
+ <div class="timeslot">4:30pm</div>
+ <div class="timeslot">10:30pm</div>
+  </div>
+  <div class="day">
+    <div class="datelabel"><strong>friday</strong><br/>june 17</div>
+    <div class="timeslot">10:00am</div>
+ <div class="timeslot">02:30pm</div>
+ <div class="timeslot">05:00pm</div>
+ <div class="timeslot">10:30pm</div>
+  </div>
+  </div>
+</div>
+      <label>
+        <input type="radio" name="Confirmation requested by" value="email" checked>
+        Email
+      </label>
+      <label>
+        <input type="radio" name="Confirmation requested by" value="phone">
+        Phone call
+      </label>
+    </div>
+  </fieldset>
+  <div class="btns">
+    <input type="text" name="_gotcha" value="" style="display:none;">
+    <input type="submit" value="Submit request">
+  </div>
+</form>
+</body>
+</html>
